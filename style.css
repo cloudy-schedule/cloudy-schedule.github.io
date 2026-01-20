@@ -1,0 +1,68 @@
+:root {
+  --bg: #0e0f13;
+  --panel: #1a1c22;
+  --border: #2a2d36;
+  --text: #e5e5e5;
+
+  --orange: #d48a2f;
+  --green: #4caf50;
+  --red: #c84a4a;
+  --violet: #800080
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* ШАПКА */
+.header {
+  padding: 16px;
+  text-align: center;
+  border-bottom: 1px solid var(--border);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 4px;
+}
+
+/* БАРАБАН */
+.drum {
+  height: calc(100vh - 64px);
+  overflow-y: auto;
+  padding: 16px;
+  scroll-behavior: smooth;
+}
+
+/* КАРТОЧКА */
+.card {
+  background: var(--panel);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-left: 6px solid var(--red);
+}
+
+.card.orange { border-color: var(--orange); }
+.card.green  { border-color: var(--green); }
+.card.red    { border-color: var(--red); }
+.card.violet    { border-color: var(--violet); }
+
+.date {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.name {
+  margin-top: 6px;
+  font-size: 16px;
+  opacity: 0.9;
+}
