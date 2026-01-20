@@ -54,7 +54,7 @@ body {
 .card.orange { border-color: var(--orange); }
 .card.green  { border-color: var(--green); }
 .card.red    { border-color: var(--red); }
-.card.violet    { border-color: var(--violet); }
+.card.violet { border-color: var(--violet); }
 
 .date {
   font-size: 34px;
@@ -66,3 +66,4 @@ body {
   font-size: 16px;
   opacity: 0.9;
 }
+
